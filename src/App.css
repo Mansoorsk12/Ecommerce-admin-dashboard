@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #111;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  width: 960px;
+  height: 545px;
+  display: flex;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.brand {
+  width: 50%;
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand h1 {
+  font-size: 50px;
+}
+
+.login-form {
+  width: 50%;
+  padding: 70px 55px;
+}
+
+.login-form h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.login-form p {
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.login-form input {
+  height: 48px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 0 16px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.forgot {
+  text-align: right;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.login-form button,
+.header button {
+  background: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 25px;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.header h1 {
+  font-size: 26px;
+}
+
+.header button {
+  width: 95px;
+}
+
+.stats {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+
+.card {
+  flex: 1;
+  height: 125px;
+  padding: 28px 25px;
+  border-radius: 12px;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 30px;
+}
+
+.revenue {
+  background: #eaf8e8;
+}
+
+.transactions {
+  background: #fff4df;
+}
+
+.products {
+  width: 625px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.product-header h2 {
+  font-size: 20px;
+}
+
+.product-header span {
+  color: #777;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.product b {
+  color: #666;
+}
+
+@media (max-width: 800px) {
+  .login-box {
+    width: 90%;
+    height: auto;
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .products {
+    width: 100%;
+  }
+}
