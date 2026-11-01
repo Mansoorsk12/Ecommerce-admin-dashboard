@@ -9,7 +9,7 @@ function App() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    if (email === "rahul@gmail.com" && password === "12345678") {
+    if (email === "Mansoor@gmail.com" && password === "12345678") {
       setLoggedIn(true);
     } else {
       alert("Invalid email or password");
