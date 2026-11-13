@@ -95,7 +95,7 @@ npm run build
 
 ## 👨‍💻 Author
 
-**Mansoor**
+**Mansoor Sadhik**
 
 - GitHub: [@Mansoorsk12](https://github.com/Mansoorsk12)
 
